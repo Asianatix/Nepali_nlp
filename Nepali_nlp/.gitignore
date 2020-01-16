@@ -2,3 +2,4 @@
 **/__pycache__
 **/test_dataset
 test.py
+**/pos_data.txt
