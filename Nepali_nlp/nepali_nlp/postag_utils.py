@@ -1,22 +1,18 @@
-class PostagUtils:
-    """
-    This class will help us to preprocess  encode text and POS TAG
-    """
+import pickle
 
-    def __init__(self, max_length):
-        self.max_length = max_length
-        pass
+class PosUtils:
+    def __init__(self):
+         """This class helps preprocess pos tag before feeding into the model"""
+         pass
 
-    def padding_sequence(self,sequence):
-        """This function make pad the sequence with fix length
-            
-                Arguments:
-                     {list} -- list of tokenized sequence 
-                Returns:
-                    list --  list of padded sequences
-                """
-        true_length = len(sequence)
-        temp_sequence = sequence
-        for idx in range(true_length,self.max_length):
-            temp_sequence.append('<PAD>')
-        return temp_sequence 
+
+    def load_dataset(self,path):
+        """ yari yari yara"""
+        dbfile = open(path, 'rb')
+        df = pickle.load(dbfile)
+        return data_df
+
+
+#-----------------------TEST CASE------------------------
+utils = PosUtils()
+data = utils.load_dataset('../local_dataset/processed_tag')
