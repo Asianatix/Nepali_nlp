@@ -1,8 +1,11 @@
+'''
+This module helps to download language embedding
+'''
 import requests
 
 
 class Download:
-    """This class helps to download different embeddings for Nepali language"""
+    """Helps to download different embeddings for Nepali language"""
 
     def __init__(self):
         pass
@@ -18,7 +21,7 @@ class Download:
                 destination: 'abc.txt'
         
         Returns:
-            [type] -- [description]
+            void -- download the embedding file
         """
 
         def get_confirm_token(response):

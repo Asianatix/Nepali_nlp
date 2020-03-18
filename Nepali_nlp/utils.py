@@ -42,7 +42,7 @@ def top_news_link(portal='onlinekhabar',top_n =5):
         top_n {int} -- [number of top trending news] (default: {5})
     
     Returns:
-        [list] -- [links of trending news]
+        list -- links of trending news
     """
     assert portal in ['onlinekhabar','ekantipur'], "Currently we support 'onlinekhabar' and 'ekantipur' only"
     links = []

@@ -11,7 +11,7 @@ class UpdateNews:
         pass
 
     def show_latest(self, word_vec, portal='onlinekhabar', number_of_news=5):
-        """his function returns tile of latest news, link for latest news and summerize news 
+        """Returns tile of latest news, link for latest news and summerize news 
         
         Keyword Arguments:
             portal {str} -- [news portal sites; for now either 'onlinekhabar' or 'ekantipur'] (default: {'onlinekhabar'})

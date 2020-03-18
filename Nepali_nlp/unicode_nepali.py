@@ -1,9 +1,10 @@
 import sys 
+import collections
+
 sys.path.append('..')
 
-import collections
-from collections import OrderedDict
 from pprint import pprint
+from collections import OrderedDict
 
 from Nepali_nlp.local_dataset.unicode import nepali, halanta, sabda_banot, exception
 

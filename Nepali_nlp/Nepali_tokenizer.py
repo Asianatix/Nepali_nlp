@@ -8,7 +8,7 @@ class Tokenizer:
         pass
 
     def sentence_tokenize(self, text):
-        """This function tokenize the sentences
+        """Tokenize paragraph/story to the sentences
         
         Arguments:
             text {string} -- Sentences you want to tokenize
@@ -21,7 +21,7 @@ class Tokenizer:
         return sentences
 
     def word_tokenize(self, sentence, new_punctuation=[]):
-        """This function tokenize with respect to word
+        """Tokenize sentence with respect to word
         
         Arguments:
             sentence {string} -- sentence you want to tokenize

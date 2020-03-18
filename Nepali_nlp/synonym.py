@@ -9,7 +9,7 @@ class Synonym:
         pass
 
     def raw_synonym(self,word, word_vec):
-        """show the similar words according to embedding
+        """Shows the similar words according to embedding
         
         Arguments:
             word{string} -- word you want to find synonym
@@ -24,7 +24,7 @@ class Synonym:
 
 
     def filter_synonym(self,word, word_vec):
-        """Funtion to filter the similarity words from embedding
+        """Filter the similarity words from embedding
         
         Arguments:
             word {string} -- [word to find similar words]

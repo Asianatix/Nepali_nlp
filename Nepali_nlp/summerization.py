@@ -1,10 +1,12 @@
 import sys
 sys.path.append('..')
 
-from Nepali_nlp.Embedding import Embeddings
-from sklearn.feature_extraction.text import TfidfVectorizer
-import numpy as np
 import string
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+from Nepali_nlp.Embedding import Embeddings
+
 class Summerize:
     def __init__(self, *args, **kwargs):
         # This should not be the standard way of doing. Standard way will be done in next iteration.
